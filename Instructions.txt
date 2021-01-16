@@ -1,0 +1,21 @@
+General:
+========
+- For the code section we will expect a working code. 
+- For the design, go ahead and write a doc/pdf whatever you are comfortable with, and try to be clear and use simple explanations.
+- You are allowed to use 3rd party tools for the challenge
+
+
+Code Section:
+=============
+- Create a python package for this simple application
+- Create a docker for the app that will import the python package
+- Create a script/docker to application test
+- Create a Kubernetes / ECS / SWARM that will run the application - explain what you chose and why (provide only the config files and a print screen that shows that it's running)
+
+Design: write a suggestion - NO NEED FOR IMPLEMENTATION
+===========================
+- Monitoring: How will you monitor this application
+- Scale: Lets say you need to scale this to 1M request per second - suggest the architecture of the solution going into production
+- Test: suggest ways of making sure the app can take the scale
+- Versioning: how will you maintain a versioning mechanism for the app
+- Alternatives: If you had the power to influence whatever you want and still keep this functionality, what would you do ?
